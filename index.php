@@ -41,6 +41,6 @@ $response = [
 ];
 
 // Send the JSON response
-echo json_encode($response);
+echo json_encode($response, JSON_UNESCAPED_SLASHES);
 
 ?>
